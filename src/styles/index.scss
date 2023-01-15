@@ -1,0 +1,34 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root,
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  padding: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+}
+
+.custom-gutter-horizontal:hover {
+  cursor: col-resize;
+}
+
+@import '../components/AppContainer/style';
+@import '../components/Map/style.scss';
+@import '../components/Table/style';
